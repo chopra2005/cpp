@@ -2,14 +2,16 @@
 using namespace std;
 int main() {
     int n;
-    cout<<"Enter the value of n"<< std::endl;
+    cout<<"Enter the value of n"<<endl;
     cin>>n;
-    int sum = 0 ;
+              // cout<<n*(n+1)/2;
+
+    int sum = 0 ;            
     for(int i=1;i<=n;i++){
         sum += i ;
     }
     
-        cout<<sum<<std::endl;
+        cout<<sum<<endl;
     
 
     return 0;
