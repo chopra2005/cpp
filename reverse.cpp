@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 
     int n , r=0;
-    cout<<"enter a number";
+    cout<<"enter a number:";
     cin>> n;
 
     int s=1;
