@@ -1,0 +1,39 @@
+// C++ program to demonstrate inheritance
+
+#include <iostream>
+using namespace std;
+
+// base class
+class Animal {
+
+   public:
+    void eat() {
+        cout << "I can eat!" << endl;
+    }
+
+    void sleep() {
+        cout << "I can sleep!" << endl;
+    }
+};
+
+// derived class
+class Dog : public Animal {
+ 
+   public:
+    void bark() {
+        cout << "I can bark! Woof woof!!" << endl;
+    }
+};
+
+int main() {
+    
+    Dog dog1;
+
+   
+    dog1.eat();
+    dog1.sleep();
+
+    
+
+    return 0;
+}
